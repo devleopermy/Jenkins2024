@@ -3,7 +3,7 @@
     stages {
         stage('Build') {
             steps {
-                sh 'javac HelloWorld.java'
+                echo 'Hello world'
             }
         }
     }
