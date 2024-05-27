@@ -3,7 +3,7 @@
     stages {
         stage('Build') {
             steps {
-                bat 'java main/HelloWorld.java'
+                bat 'java HelloWorld.java'
             }
         }
     }
